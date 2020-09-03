@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :password_digest
     end
   end
-  
+
   def up
     create_table :users do |t|
       t.string :username
